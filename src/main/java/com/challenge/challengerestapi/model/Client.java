@@ -19,7 +19,7 @@ public class Client implements Serializable{
 	@Column(nullable = false)
 	private String name;
 	@Column(nullable = false)
-	private Integer document;
+	private Long document;
 	@Column(nullable = false)
 	private String email;
 	@Column(nullable = false)
@@ -36,10 +36,10 @@ public class Client implements Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
-	public Integer getDocument() {
+	public Long getDocument() {
 		return document;
 	}
-	public void setDocument(Integer document) {
+	public void setDocument(Long document) {
 		this.document = document;
 	}
 	public String getEmail() {

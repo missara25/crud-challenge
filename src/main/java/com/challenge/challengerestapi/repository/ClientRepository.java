@@ -8,4 +8,5 @@ import com.challenge.challengerestapi.model.Client;
 @Repository
 public interface ClientRepository extends JpaRepository<Client, Long>{
 
+	Client findById(long id);
 }
