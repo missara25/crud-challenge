@@ -15,7 +15,7 @@ import com.challenge.challengerestapi.repository.ClientRepository;
 public class ClientController {
 
 	@Autowired
-	private ClientRepository clientRepository;
+	ClientRepository clientRepository;
 	
 	@GetMapping
 	public List<Client> listClients(){
